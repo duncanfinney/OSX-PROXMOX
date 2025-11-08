@@ -66,7 +66,7 @@ apt-get install -y git >> "$LOG_FILE" 2>&1
 check_status "Failed to install git"
 
 # Clone repository
-log_message "Cloning OSX-PROXMOX repository..."
+log_message "Cloning duncanfinney/OSX-PROXMOX repository..."
 git clone --recurse-submodules https://github.com/duncanfinney/OSX-PROXMOX.git /root/OSX-PROXMOX >> "$LOG_FILE" 2>&1
 check_status "Failed to clone repository"
 
